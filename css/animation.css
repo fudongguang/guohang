@@ -1,0 +1,117 @@
+.animationIndexA{
+    -webkit-animation: tansformIndexA 4s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+
+
+
+
+@-webkit-keyframes tansformIndexA{
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        -webkit-transform: translate3d(800px, 0px, 0px);
+    }
+}
+
+
+.animationIndexB{
+    -webkit-animation: tansformIndexB 3.5s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes tansformIndexB{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, -180px, 0px);
+    }
+}
+
+.animationIndexC{
+    -webkit-animation: tansformIndexC 3s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes tansformIndexC{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.animationInfoA{
+    -webkit-animation: tansformInfoA 3s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes tansformInfoA{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0px, 80px, 0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+.animationInfoB{
+    -webkit-animation: tansformInfoB 3s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes tansformInfoB{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0px, -80px, 0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+.animationInfoC{
+    -webkit-animation: tansformInfoC 3s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes tansformInfoC{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animationFeiji{
+    -webkit-animation: tansformInfoFeiji 5s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    width: 245px;
+}
+
+@-webkit-keyframes tansformInfoFeiji{
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        width: 245px;
+    }
+    100% {
+        -webkit-transform: translate3d(0px, -700px, 0px);
+        width: 5px;
+    }
+}

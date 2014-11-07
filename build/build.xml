@@ -1,0 +1,21 @@
+<project name="webgulp" basedir="../">
+    <target name="default" description="gulp default">
+
+        <exec executable="gulp"/>
+        <exec executable="gulp">
+            <arg value="buildjs"/>
+        </exec>
+    </target>
+    <target name="watch" description="gulp watch">
+
+        <exec executable="gulp">
+            <arg value="watch"/>
+        </exec>
+    </target>
+
+    <target name="publish" description="gulp publish">
+        <exec executable="gulp">
+            <arg value="publish"/>
+        </exec>
+    </target>
+</project>

@@ -1,0 +1,1 @@
+define(["./global/global","./public/functions","./data/data"],function(){var e=function(){WeixinJSBridge.call("hideToolbar")};"undefined"==typeof WeixinJSBridge?document.addEventListener?document.addEventListener("WeixinJSBridgeReady",e,!1):document.attachEvent&&(document.attachEvent("WeixinJSBridgeReady",e),document.attachEvent("onWeixinJSBridgeReady",e)):e()});

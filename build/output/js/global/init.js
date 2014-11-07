@@ -1,0 +1,1 @@
+define(["./common"],function(o){o.isH5=!1;var a=o.query("platform")||o.query("plat");a=a.toString().toLocaleLowerCase(),("h5"===a||window.location.search.search(/plath5/i)>-1)&&(o.isH5=!0)});

@@ -1,0 +1,40 @@
+spawn rsync -aP -e ssh_bak 20141031.zip root@10.1.15.95:/usr/local/webserver/nginx/html/H5
+root@10.1.15.95's password: spawn ssh root@10.1.15.95 sh /usr/local/webserver/nginx/html/H5/H5.sh /usr/local/webserver/nginx/html/H5/20141031
+root@10.1.15.95's password: 
+Archive:  /usr/local/webserver/nginx/html/H5/20141031.zip
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/banjia.php  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/daigou.php  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/index.php  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/koudai.php  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/meiligou.php  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/setViewportDpi.html  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/setViewportScal.html  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/css/app.css  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/images/logo-banjia.png  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/images/logo-daigou.png  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/images/logo-koudai.png  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/images/logo-meiligou.png  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/app.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/index.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/css/global/global.css  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/css/global/size.css  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/data/data.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/global/common.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/global/global.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/global/hack.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/global/init.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/global/storage.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/Fish.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/JSON2.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/Slider.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/ejs_production.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/require.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/weixin.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/wxshare.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/zepto.fx.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/zepto.min.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/lib/zepto.pageSlider.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/public/banjia.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/public/configs.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/public/functions.js  
+  inflating: /usr/local/webserver/nginx/html/H5/20141031/js/public/koudai.js  
