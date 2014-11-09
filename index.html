@@ -33,7 +33,7 @@
     </div>
 
 
-    <div class="page" style="background-color: #ffffff;display: block;">
+    <div class="page" style="background-color: #ffffff;display: none;">
         <div class="info_01 tc animationInfoB">
             <div class="infoTags" id="infoTags">
                 <a class="selected J_toggleShow" target="icons_01"  href="#">增值服务</a><a href="#" target="icons_02" class="J_toggleShow">专项服务</a><a href="#" target="icons_03" class="J_toggleShow">常规服务</a>
@@ -73,7 +73,7 @@
                     </div>
             </div>
 
-            <div class="J_iconsDest" id="icons_03" style="display: none;">
+            <div class="J_iconsDest" id="icons_03" style="display: none">
                 <img src="images/icons_02.png" style="position: relative;z-index:30">
                 <div class="icons J_icons" style="width: 433px;height: 352px;">
                     <a href="#" style="top:200px; left: 22px"></a>
@@ -103,11 +103,15 @@
         </div>
     </div>
 
-    <div class="page jichang" style="display: none">
+    <div class="page jichang" style="display: block">
         <div style="height: 1px"></div>
 
         <div class="jichang_05">
-
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
         </div>
 
         <div class="jichang_04 tc">
@@ -116,9 +120,28 @@
         <div class="tc jichang_03">
             <img src="images/jichang_03.png?v=123" class="animationFeiji"/>
         </div>
-        <img class="jichang_02" src="images/jichang_02.png"/>
-        <img class="jichang_07" src="images/jichang_07.png"/>
+        <div  class="jichang_02">
+            <img src="images/jichang_02.png"/>
+            <a href="#" onclick="$('#jichang_08').show();return false;"></a>
+            <a href="#" onclick="$('#jichang_09').show();return false;" style="left: auto;right: 38px;"></a>
+        </div>
+        <img class="jichang_07"  src="images/jichang_07.png"/>
+        <div class="jichang_08 animationInfoD" id="jichang_08">
+            <img src="images/jichang_08.png"/>
+        </div>
+        <div class="jichang_08 animationInfoD" id="jichang_09">
+            <img src="images/jichang_09.png"/>
+            <input type="text" name="aa" maxlength="20"/>
+        </div>
+        <div class="jichang_10 animationInfoF" style="display: none;">
 
+        </div>
+        <div class="jichang_10 animationInfoF" style="display:none;background-image: url('images/jichang_11.png')">
+            <div style="position: absolute;color: #cf232e;bottom:400px;left: 45px;">
+                <p style="font-size: 40px;">恭喜您</p>
+                <p style="font-size: 20px;">获得五等奖，钥匙扣一枚</p>
+            </div>
+        </div>
     </div>
 
 
