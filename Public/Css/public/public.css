@@ -1,0 +1,66 @@
+@import "../global/global.css";
+@import "./table-list.css";
+
+/* layout */
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+
+/* common ui */
+.input-t{
+    border-radius: 3px;
+    height: 20px;
+    padding:6px 0;
+    line-height: 20px;
+    font-size: 15px;
+    outline: 0;
+    padding-left: 3px;
+    border: 1px solid #c8c8c8;
+}
+
+.input-t:focus {
+    outline: 0;
+    box-shadow: 0 0 3px #6cf;
+    border: solid 1px #39f;
+}
+
+select{
+    font-size: 13px;
+    outline: 0;
+    border:solid 1px #c8c8c8;
+    padding:3px 3px;
+    height: 26px;
+}
+
+.button{
+    padding: 6px 9px;
+    display: inline-block;
+    background-color: #f98a5b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    vertical-align: middle;
+    border: 0;
+}
+
+
+.search-button{
+    padding: 8px 11px;
+    font-size: 15px;
+}
+
+.button:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+td{
+    padding:3px;
+}
+
+
+.code-desc{
+    font-family: monospace;
+    white-space: normal !important;
+}

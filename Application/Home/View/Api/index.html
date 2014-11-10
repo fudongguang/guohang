@@ -1,0 +1,102 @@
+<include file="Public:header" xmlns="http://www.w3.org/1999/html"/>
+<style type="text/css">
+    .code-title {
+        text-indent: -8px;
+    }
+
+    pre {
+        display: block;
+        padding: 9.5px;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 20px;
+        word-break: break-all;
+        word-wrap: break-word;
+        white-space: pre;
+        white-space: pre-wrap;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        color: #333333;
+    }
+
+    code {
+        padding: 0;
+        color: inherit;
+        white-space: pre;
+        white-space: pre-wrap;
+        background-color: transparent;
+        border: 0;
+    }
+
+
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+        font-weight: bold;
+        line-height: 20px;
+        color: inherit;
+        text-rendering: optimizelegibility;
+    }
+    h4 {
+        font-size: 17.5px;
+    }
+
+    .J_codeDesc{
+        display: none;
+    }
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Public/json.css?v=140426161232"/>
+
+<div class="wrapper" style="position: relative">
+    <h1 class="title pt20">{$project.name}
+        <notempty  name="Think.session.userInfo.name">
+                <a href="add?projectId={$project.id}" style="font-size: 15px;">增加</a>
+        </notempty>
+    </h1>
+    <hr>
+
+    <div class="row mt50">
+        <div class="span12">
+            <foreach name="rows" item="item">
+                <h4 class="pb5" id="h4_{$item.id}">{$item.name}
+                    <notempty  name="Think.session.userInfo.name">
+                    <a href="edit?id={$item.id}"  style="font-size: 14px;">编辑</a>
+                    <a class="J_del" href="del?id={$item.id}" style="font-size: 14px;">删除</a>
+                    </notempty>
+                </h4>
+                    <pre class="mb30"><div class="code-title">【描述】</div><if condition="$item.desc neq ''">{$item.desc|trim}<br/></if>
+                        <div class="code-title">【参数】</div><div class="code-desc J_codeDesc">{$item.paramsFormat|trim}</div>
+                        <div class="code-title">【返回】</div><div class="code-desc J_codeDesc">{$item.result|trim}</div></pre>
+            </foreach>
+        </div>
+    </div>
+
+    <div id="apiNav"
+         style="position: fixed;right: 0;top:47px;width: 70px;border:solid 1px #ccc;background:#fff;padding:5px;overflow: hidden;border-radius: 5px;">
+        <div>导航 <a href="#" class="fr" id="zhedie">折叠</a> </div>
+        <ul style="line-height: 20px;padding-left: 23px;display: none;" id="zhedieTarget" class="mt10">
+            <foreach name="rows" item="item">
+                <li  style="list-style-type: disc;"><a href="#h4_{$item.id}" style="color: #0088cc;font-size: 14px;">{$item.name}</a></li>
+            </foreach>
+        </ul>
+    </div>
+</div>
+
+
+
+
+<include file="Public:include"/>
+
+<script type="text/javascript">
+    initData['userName']='{$Think.session.userInfo.name}';
+    requirejs([ 'api','lib/formart' ], function () {
+    });
+</script>
+
+<include file="Public:footer"/>

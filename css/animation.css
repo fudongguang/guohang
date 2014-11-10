@@ -1,5 +1,5 @@
 .animationIndexA{
-    -webkit-animation: tansformIndexA 4s ease-in-out 0 1;
+    -webkit-animation: tansformIndexA 4s ease-in-out 3.5s 1;
     -webkit-animation-fill-mode:forwards;
 }
 
@@ -15,6 +15,24 @@
     }
 }
 
+.animationIndexD{
+    -webkit-animation: animationIndexD 3.5s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes animationIndexD{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0px, -80px, 0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+
 
 .animationIndexB{
     -webkit-animation: tansformIndexB 3.5s ease-in-out 0 1;
@@ -25,16 +43,16 @@
 @-webkit-keyframes tansformIndexB{
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 180px, 0px);
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate3d(0px, -180px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
     }
 }
 
 .animationIndexC{
-    -webkit-animation: tansformIndexC 3s ease-in-out 0 1;
+    -webkit-animation: tansformIndexC 3s ease-in-out 6s 1;
     -webkit-animation-fill-mode:forwards;
     opacity: 0;
 }
@@ -51,7 +69,7 @@
 
 
 .animationInfoA{
-    -webkit-animation: tansformInfoA 3s ease-in-out 0 1;
+    -webkit-animation: tansformInfoA 2s ease-in-out 0 1;
     -webkit-animation-fill-mode:forwards;
     opacity: 0;
 }
@@ -68,7 +86,7 @@
 }
 
 .animationInfoB{
-    -webkit-animation: tansformInfoB 3s ease-in-out 0 1;
+    -webkit-animation: tansformInfoB 2s ease-in-out 0 1;
     -webkit-animation-fill-mode:forwards;
     opacity: 0;
 }
@@ -149,4 +167,147 @@
         opacity: 1;
         -webkit-transform: translate3d(0px, 0px, 0px);
     }
+}
+
+.fadeout{
+    -webkit-animation: fadeout 1s ease-in-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+@-webkit-keyframes fadeout{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.numberAnimation{
+    -webkit-animation: numberAnimation 1.5s linear 2.5s 10000;
+}
+
+
+@-webkit-keyframes numberAnimation{
+    0% {
+        background-position: -9px 80px;
+        opacity: 1;
+    }
+
+    100% {
+        background-position: -9px -900px;
+        opacity: 1;
+    }
+}
+
+.numberAnimation_01{
+    -webkit-animation: numberAnimation 2s linear 2.5s 10000;
+}
+
+.numberAnimation_02{
+    -webkit-animation: numberAnimation 1.8s linear 2.5s 10000;
+}
+
+.numberAnimation_03{
+    -webkit-animation: numberAnimation 1.2s linear 2.5s 10000;
+}
+
+
+.numberAnimation_04{
+    -webkit-animation: numberAnimation 1.6s linear 2.5s 10000;
+}
+
+
+
+
+
+.numberAnimationa{
+    -webkit-animation: numberAnimationa 2.5s ease-in 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+
+
+@-webkit-keyframes numberAnimationa{
+    0% {
+        background-position: -9px 90px;
+    }
+
+    100% {
+        background-position: -9px -970px;
+    }
+}
+
+.numberAnimationa_01{
+    -webkit-animation: numberAnimationa_01 2.5s ease-in 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+
+
+@-webkit-keyframes numberAnimationa_01{
+    0% {
+        background-position: -9px -393px;
+    }
+
+    100% {
+        background-position: -9px -970px;
+    }
+}
+
+.numberAnimationa_02{
+    -webkit-animation: numberAnimationa_02 2.5s ease-in 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+
+
+@-webkit-keyframes numberAnimationa_02{
+    0% {
+        background-position: -9px -223px;
+    }
+
+    100% {
+        background-position: -9px -970px;
+    }
+}
+
+.numberAnimationb{
+    -webkit-animation: numberAnimationb 2.5s ease-out 0 1;
+    -webkit-animation-fill-mode:forwards;
+}
+
+
+@-webkit-keyframes numberAnimationb{
+    0% {
+        background-position: -9px 90px;
+    }
+
+    100% {
+        background-position: -9px -1000px;
+    }
+}
+
+
+
+
+.numberAnimationc{
+    background-image: url(../images/number1_1.png) !important;
+    transition: background-position-y 4s ease-out;
+    -webkit-transition: background-position-y 4s ease-out;
+}
+
+
+/*@-webkit-keyframes numberAnimationc{*/
+    /*0% {*/
+        /*background-position: -9px 90px;*/
+        /*opacity: 1;*/
+    /*}*/
+
+    /*100% {*/
+        /*background-position: -9px -200px;*/
+        /*opacity: 1;*/
+    /*}*/
+/*}*/
+
+.page{
+    transition:-webkit-transform 0s ease-in;
+    -webkit-transition:-webkit-transform 0s ease-in;
 }

@@ -1,0 +1,23 @@
+.wrapper{
+    width: 320px;
+    position: relative;
+    height: 100%;
+}
+
+.input-t{
+    width: 250px;
+}
+
+
+td{
+    padding:3px;
+    position: relative;
+}
+
+
+.login{
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -100px;
+}

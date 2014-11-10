@@ -13,6 +13,24 @@ define(['./common'], function (com) {
         com.isH5 = true;
     }
 
+    var body = $('body');
+
+    body.delegate('.J_share','click',function(){
+        if(window.WeixinJSBridge){
+            $('#weixinfengxiang').show();
+        }else{
+            $('#fenxiangcover').show();
+        }
+    });
+
+    $('.J_close').on('touchstart mousedown',function(){
+        $(this).hide();
+    });
+
+    $('.J_stopEvent').on('touchstart mousedown',function(e){
+        e.stopPropagation();
+    })
+
 });
 
 

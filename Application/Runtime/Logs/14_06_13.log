@@ -1,0 +1,1944 @@
+[ 2014-06-13T08:58:50+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016332s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.031435s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000512s ]
+NOTIC: [2] is_file() expects parameter 1 to be a valid path, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 140 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 150 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 162 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 165 行.
+ERR: 模板不存在:./Application/Home/View/Array.html
+
+[ 2014-06-13T08:59:46+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002542s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2014-06-13T10:52:36+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001364s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2014-06-13T10:52:39+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001749s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2014-06-13T10:53:01+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.066181s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-06-13T10:53:07+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-06-13T10:53:13+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002304s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-06-13T10:53:17+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002367s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2014-06-13T10:53:22+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002122s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-06-13T10:53:22+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001974s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-06-13T10:53:23+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002133s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2014-06-13T10:53:23+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002268s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-06-13T10:53:24+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002282s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2014-06-13T10:53:25+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002260s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2014-06-13T10:53:47+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002549s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-06-13T10:54:15+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002685s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000263s ]
+NOTIC: [2] is_file() expects parameter 1 to be a valid path, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 140 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 150 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 162 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 165 行.
+ERR: 模板不存在:./Application/Home/View/Array.html
+
+[ 2014-06-13T10:54:30+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001416s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000234s ]
+NOTIC: [2] is_file() expects parameter 1 to be a valid path, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 140 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 150 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 162 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 165 行.
+ERR: 模板不存在:./Application/Home/View/Array.html
+
+[ 2014-06-13T10:54:43+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.181672s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-06-13T10:56:07+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003193s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000279s ]
+NOTIC: [2] is_file() expects parameter 1 to be a valid path, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 140 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 150 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 162 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 165 行.
+ERR: 模板不存在:./Application/Home/View/Array.html
+
+[ 2014-06-13T10:56:11+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002722s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000263s ]
+NOTIC: [2] is_file() expects parameter 1 to be a valid path, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 140 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 150 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 162 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/ThinkPHP/Library/Think/View.class.php 第 165 行.
+ERR: 模板不存在:./Application/Home/View/Array.html
+
+[ 2014-06-13T10:56:31+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002243s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2014-06-13T10:56:59+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002250s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2014-06-13T10:58:58+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002255s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2014-06-13T10:58:59+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002829s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2014-06-13T10:59:56+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002387s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2014-06-13T11:03:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002315s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2014-06-13T11:03:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001471s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-06-13T11:03:07+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001769s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2014-06-13T11:03:40+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002265s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2014-06-13T11:03:51+08:00 ] ::1 /ThinkPHP/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.041655s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2014-06-13T11:03:56+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002272s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2014-06-13T11:03:56+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003266s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2014-06-13T11:04:54+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002305s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2014-06-13T11:06:15+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002267s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-06-13T11:06:17+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.016641s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2014-06-13T11:06:58+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.023209s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2014-06-13T11:06:59+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.090739s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2014-06-13T11:07:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002437s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2014-06-13T11:07:41+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002190s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2014-06-13T11:09:27+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002718s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2014-06-13T11:09:28+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.016757s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-06-13T11:09:29+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001653s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2014-06-13T11:11:18+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.134055s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-06-13T11:11:19+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002355s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2014-06-13T11:11:56+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.047550s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2014-06-13T11:13:09+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002245s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2014-06-13T11:13:10+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001728s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2014-06-13T11:13:20+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001720s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2014-06-13T11:14:47+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.015820s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2014-06-13T11:14:48+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001534s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2014-06-13T11:16:13+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002320s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2014-06-13T11:16:16+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.496843s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2014-06-13T11:16:20+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.016865s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2014-06-13T11:16:20+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001410s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-06-13T11:16:30+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.066516s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+
+[ 2014-06-13T11:16:39+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002200s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2014-06-13T11:16:47+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.149908s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+
+[ 2014-06-13T11:16:59+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.065757s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2014-06-13T11:17:26+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002305s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2014-06-13T11:17:27+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002459s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2014-06-13T11:17:40+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002299s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2014-06-13T11:17:41+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001862s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2014-06-13T11:17:42+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002357s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-06-13T11:18:31+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002389s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+NOTIC: [8] Array to string conversion /Users/fudongguang/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2014-06-13T11:19:47+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002186s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-06-13T11:20:39+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002094s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-06-13T11:20:39+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002290s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2014-06-13T11:21:23+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002118s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2014-06-13T11:21:24+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.066448s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2014-06-13T11:23:10+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.221555s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.292998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-06-13T11:23:28+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001644s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2014-06-13T11:24:31+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002141s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2014-06-13T11:24:33+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001698s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2014-06-13T11:24:33+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002443s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-06-13T11:29:43+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002272s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2014-06-13T11:30:49+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002486s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2014-06-13T11:30:51+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002363s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2014-06-13T11:30:56+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.136546s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2014-06-13T11:31:18+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+ERR: 非法操作:1
+
+[ 2014-06-13T12:39:21+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031724s ]
+NOTIC: [2048] Declaration of Home\Model\ProjectModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudongguang/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.121677s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.084730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016410s ]
+

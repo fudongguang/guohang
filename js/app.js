@@ -17,7 +17,7 @@ requirejs.config({
 
 // Start the main app logic.
 requirejs(
-	['./lib/Fish','./lib/ejs_production', './lib/JSON2','./global/global','./lib/Slider','./data/data','./public/functions','./lib/weixin','./lib/zepto.fx','./lib/zepto.pageSlider','./index'],
+	['./lib/Fish','./lib/ejs_production', './lib/JSON2','./global/global','./lib/Slider','./data/data','./public/functions','./lib/weixin','./lib/zepto.dirction','./index'],
 	function () {
 		//jQuery, canvas and the app/sub module are all
 		//loaded and can be used here now.

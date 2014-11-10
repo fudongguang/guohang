@@ -90,10 +90,10 @@ gulp.task('minifyJs',['copy'],function(){
 
 //构建css
 gulp.task('buildcss',['minifyCss'],function () {
-    return gulp.src('css/public/public.css')
+    return gulp.src('css/app.css')
         .pipe(importCss())
         .pipe(minifyCss())
-        .pipe(gulp.dest(dirOutput+'/css/public'))
+        .pipe(gulp.dest(dirOutput+'/css'))
 });
 
 //压缩css
@@ -106,7 +106,16 @@ gulp.task('minifyCss',['copy'],function(){
 
 //图片优化
 gulp.task('images', function (cb) {
-    gulp.src(['images/**/*'])
+    gulp.src(['images/**/*'].concat(dirExculde))
+        .pipe(imageop({
+            optimizationLevel: 5,
+            progressive: true,
+            interlaced: true
+        }))
+        .pipe(gulp.dest('images')).on('end', cb).on('error', cb);
+
+
+    gulp.src(['images/**/*'].concat(dirExculde))
         .pipe(imageop({
             optimizationLevel: 5,
             progressive: true,
@@ -222,7 +231,7 @@ gulp.task('scp',['zip'],function(){
             port:config.port,
             username: config.username,
             password: config.pwd,
-            dest: '/home/fudongguang/',
+            dest: '/home/www/miliguli/wwwroot',
             agent: process.env['SSH_AUTH_SOCK'],
             agentForward: true,
             watch: function(client) {
@@ -252,7 +261,7 @@ gulp.task('publish',['scp'],function () {
     });
 
     return gulpSSH
-        .exec(['expect H5.sh '+config.rootDir], {filePath: 'commands.log'})
+        .exec(['sh /home/www/miliguli/wwwroot/haihang.sh'], {filePath: 'commands.log'})
         .pipe(gulp.dest('build/logs'));
 });
 

@@ -1,6 +1,6 @@
 exports.config={};
-exports.config.ip='123.150.172.198';
-exports.config.username='fudongguang';
-exports.config.pwd='!abc123456';
-exports.config.rootDir='20141031';
-exports.config.port='63008';
+exports.config.ip='123.57.36.159';
+exports.config.username='root';
+exports.config.pwd='lineer2013S';
+exports.config.rootDir='haihang';
+//exports.config.port='63008';

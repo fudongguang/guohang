@@ -20,9 +20,17 @@ a {
 }
 
 .page {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 640px;
+    display: none;
     min-height: 100%;
     height: 100%;
+    overflow: hidden;
 }
+
+
 
 .jiantouV {
     -webkit-transform: rotate(270deg) scale(0.8);
@@ -33,8 +41,11 @@ a {
 .indexTel {
     background: #fff;
     padding-top: 5px;
-    position: relative;
     font-size: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:45%;
 }
 
 .feijiC {
@@ -43,8 +54,9 @@ a {
     height: 128px;
     position: absolute;
     left: -110px;
-    top: -33px;
+    top:45%;
     padding-left: 106px;
+    margin-top: -33px;
 }
 
 .feijiC div {
@@ -55,7 +67,8 @@ a {
 .index_01 {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 17%;
+    opacity: 0;
 }
 
 .indexJiantouC {
@@ -81,7 +94,7 @@ a {
 }
 
 .infoTags a {
-    padding: 5px 20px;
+    padding: 5px 32px;
     border: solid 2px #fff;
     background-color: #c8c8c9;
 }
@@ -133,7 +146,7 @@ a {
 
 .jichang_03 {
     position: absolute;
-    bottom: 200px;
+    bottom: 15%;
     left: 0;
     width: 100%;
 }
@@ -141,7 +154,8 @@ a {
 .jichang_04 {
     position: absolute;
     left: 50%;
-    bottom: 430px;
+    bottom: 15%;
+    margin-bottom: 235px;
     margin-left: -110px;
     background: url(../images/jichang_06.png?v=123) no-repeat top center;
     width: 228px;
@@ -157,14 +171,7 @@ a {
     display: inline-block;
 }
 
-.jichang_05 {
-    background: url(../images/jichang_04.png?v=123) no-repeat;
-    width: 544px;
-    height: 130px;
-    position: relative;
-    margin: auto;
-    margin-top: 190px;
-}
+
 
 .jichang_07 {
     position: absolute;
@@ -225,18 +232,62 @@ a {
     background-color: inherit;
 }
 
+
 .jichang_05 {
-    padding-left: 10px;
+    width: 544px;
+    height: 130px;
+    position: relative;
+    margin: auto;
+    margin-top: 190px;
 }
 
-.jichang_05 a {
+.jichang_05 {
+    z-index: 30;
+    padding-left: 10px;
+    font-size: 0;
+}
+
+.jichang_05 span {
     display: inline-block;
     float: left;
-    width: 70px;
-    height: 90px;
+    width: 95px;
+    height: 123px;
     border: solid 0px red;
-    margin-right: 41px;
-    background: url(../images/number.png) no-repeat 23px 40px;
+    margin-right: 15px;
+    background: url(../images/number_bg.png) no-repeat center center;
+    display: inline-block;
+    position: relative;
+}
+
+.jichang_05 span:last-child{
+    margin-right: 0;
+}
+
+
+.jichang_05 span div{
+    position: absolute;
+    left: 13px;
+    top: 14px;
+    width: 67px;
+    height: 97px;
+    border-radius: 20px;
+    display: none;
+    background: url(../images/number1.png) no-repeat -9px 0;
+}
+
+.jichang_05 span div:first-child{
+    display: block;
+    background: url(../images/number1.png) no-repeat -9px -730px;
+}
+
+.jichang_05 span:nth-child(2) div:first-child{
+    display: block;
+    background: url(../images/number1.png) no-repeat -9px -393px;
+}
+
+.jichang_05 span:nth-child(3) div:first-child,.jichang_05 span:nth-child(4) div:first-child{
+    display: block;
+    background: url(../images/number1.png) no-repeat -9px -223px;
 }
 
 .jichang_08 {
@@ -253,12 +304,12 @@ a {
 .jichang_08 input {
     position: absolute;
     left: 73px;
-    top: 63px;
+    top: 115px;
     height: 30px;
     width: 355px;
     border: 0;
     background-color: #e7e7e7;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .jichang_10{
@@ -269,3 +320,4 @@ a {
     height: 100%;
     background: url(../images/jichang_10.png) no-repeat center bottom;
 }
+
