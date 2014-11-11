@@ -1,15 +1,16 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+define("TOKEN", "hhcj");
 class WeixinController extends Controller {
 
     private $jiangping = [
-        ['往返机票', 2],
-        ['飞机模型', 10],
-        ['机翼U盘', 100],
-        ['代金券', 300],
+        ['钥匙扣', 1000],
         ['马克杯', 500],
-        ['钥匙扣', 1000]
+        ['代金券', 300],
+        ['机翼U盘', 100],
+        ['飞机模型', 10],
+        ['往返机票', 2]
     ];
 
     private $scale = 300;
@@ -57,6 +58,14 @@ class WeixinController extends Controller {
     //抽奖接口
     public function choujiang($FromUserName){
 
+
+        //验证是否有这个用户
+        if(!$this->checkUserName($FromUserName)){
+            $this->responseResult('','获取用户数据失败');
+            return false;
+        }
+
+        //验证抽奖次数
         $times = $this->getTimes($FromUserName);
         if($times>=100){
             $this->responseResult('','您今天抽奖次数已满');
@@ -66,11 +75,12 @@ class WeixinController extends Controller {
         //更新用户抽奖次数
         $this->updateTimes($FromUserName);
 
-        //查看多少人获奖
+        //查看今日有多少人抽奖了
         $PlayerTotal = $this->getPlayerTotal();
-        $JiangTotal = $this->getJiangTotal();
 
-        if(($JiangTotal*$this->scale)>$PlayerTotal){
+        //查看获奖记录数
+        $JiangTotal = $this->getJiangTotal();
+        if(($PlayerTotal/$this->scale)>$JiangTotal){
             $result = $this->getJiangPing();
         }else{
             $result = $this->noJiangPing();
@@ -80,7 +90,7 @@ class WeixinController extends Controller {
         $name = $this->getJiangPingName($result);
 
         $data['name']=$name;
-        $data['number']=11;
+        $data['number']=intval(implode('',$result));
         $data['FromUserName']=$FromUserName;
         $table = D('jiangping');
         if(!$table->create($data)){
@@ -90,6 +100,9 @@ class WeixinController extends Controller {
         $table->add($data);
 
 
+        if($result==[9,5,3,3,9]){
+            $result = [4,2,7,6,6];
+        }
         $this->responseResult($result);
     }
 
@@ -127,9 +140,9 @@ class WeixinController extends Controller {
 
     //不能中奖接口
     public function noJiangPing(){
-        $arr = array(rand(0,9),rand(0,9),rand(0,9),rand(0,9),rand(0,9));
+        $arr = array(rand(0,8),rand(0,8),rand(0,8),rand(0,8),rand(0,8));
 
-        if($arr===[9,5,3,3,9]){
+        if($arr==[9,5,3,3,9]){
             $arr = [4,2,7,6,6];
         }
 
@@ -139,7 +152,7 @@ class WeixinController extends Controller {
     //查看今日中奖情况
     public function getJiangTotal(){
         $table = D('jiangping');
-        return $count = $table->where("time>='".date("Y-m-d")."'")->count();
+        return $count = $table->where("time>='".date("Y-m-d")."' and name!='nothing'")->count();
     }
 
     //查看单个奖品今日中奖情况
@@ -152,7 +165,7 @@ class WeixinController extends Controller {
     //查看今日有多少人抽奖了
     public function getPlayerTotal(){
         $table = D('user');
-        return $count = $table->where("times>=0")->count();
+        return $count = $table->where("times>0")->count();
     }
 
     public function getUserInfoByFromUserName($FromUserName){
@@ -173,8 +186,19 @@ class WeixinController extends Controller {
     public function getJiangPingName ($arr){
         $tempStr = implode('',$arr);
         $count = substr_count($tempStr,'9');
-        return $this->jiangping[$count][0];
+
+        if($count){
+            return $this->jiangping[$count-1][0];
+        }else{
+            return 'nothing';
+        }
     }
+
+    public function checkUserName($FromUserName){
+        $table = D('user');
+        return $table->where("FromUserName="."'".$FromUserName."'")->count();
+    }
+
 
 
     //回应请求后打印结果
@@ -193,10 +217,116 @@ class WeixinController extends Controller {
         echo json_encode($result);
     }
 
+
+    public function weixinMsg(){
+        $this->valid();
+        exit;
+
+        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+        if (!empty($postStr)) {
+            libxml_disable_entity_loader(true);
+            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $fromUsername = $postObj->FromUserName;
+            $toUsername = $postObj->ToUserName;
+            $content = trim($postObj->Content);
+            $msgType =$postObj->MsgType;
+            $event = $postStr->Event;
+
+            if($msgType === 'text'){
+                if(stristr($content,'dz')){
+                    if($this->address($content,$fromUsername)){
+                        $this->responseMsg('处理成功，我们将在七个工作日内发货');
+                    }
+                }
+            }
+
+            if($msgType === 'event'){
+                if($event === 'subscribe'){
+                    if($this->add($fromUsername)){
+                        $this->responseMsg('关注设置成功');
+                    }
+                }
+            }
+
+        } else {
+            echo "";
+            exit;
+        }
+    }
+
+    public function responseMsg($contentStr){
+        //get post data, May be due to the different environments
+        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+
+        //extract post data
+        if (!empty($postStr)) {
+            /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
+            the best way is to check the validity of xml by yourself */
+            libxml_disable_entity_loader(true);
+            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $fromUsername = $postObj->FromUserName;
+            $toUsername = $postObj->ToUserName;
+            $keyword = trim($postObj->Content);
+            $time = time();
+            $textTpl = "<xml>
+                <ToUserName><![CDATA[%s]]></ToUserName>
+                <FromUserName><![CDATA[%s]]></FromUserName>
+                <CreateTime>%s</CreateTime>
+                <MsgType><![CDATA[%s]]></MsgType>
+                <Content><![CDATA[%s]]></Content>
+                <FuncFlag>0</FuncFlag>
+            </xml>";
+            if (!empty($keyword)) {
+                $msgType = "text";
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                echo $resultStr;
+            } else {
+                echo "Input something...";
+            }
+
+        } else {
+            echo "";
+            exit;
+        }
+    }
+
+    public function valid(){
+        $echoStr = $_GET["echostr"];
+
+        if ($this->checkSignature()) {
+            echo $echoStr;
+            exit;
+        }
+    }
+
+    private function checkSignature(){
+        if (!defined("TOKEN")) {
+            throw new Exception('TOKEN is not defined!');
+        }
+
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+
+        $token = TOKEN;
+        $tmpArr = array($token, $timestamp, $nonce);
+        sort($tmpArr, SORT_STRING);
+        $tmpStr = implode($tmpArr);
+        $tmpStr = sha1($tmpStr);
+
+        if ($tmpStr == $signature) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
     public function testchoujiang(){
-
-
         $this->choujiang('dsf');
     }
 
+    public function testaddress(){
+        $this->address('sdfsdfsdf','dsf');
+    }
 }
