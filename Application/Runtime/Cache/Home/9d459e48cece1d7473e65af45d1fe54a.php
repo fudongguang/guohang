@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>口袋杭州api系统</title>
-    <link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Css/Public/public.css?v=140426161232"/>
+    <link rel="stylesheet" type="text/css" href="/fudongguang/guohang/Public/Css/Public/public.css?v=140426161232"/>
 </head>
 <body>
 <div class="navbar pt12 pb12" style="background:#2c2c2c;color: #fff">
@@ -43,8 +43,8 @@
 </div>
 
 <script type="text/javascript" src="http://item.koudai.com/js/jquery.js"></script>
-<script type="text/javascript" src="/ThinkPHP/Public/js/plugin/lhgdialog/lhgdialog.min.js?skin=default"></script>
-<script type="text/javascript" src="http://item.koudai.com/js/require.js" data-main="/ThinkPHP/Public/js/app"></script>
+<script type="text/javascript" src="/fudongguang/guohang/Public/js/plugin/lhgdialog/lhgdialog.min.js?skin=default"></script>
+<script type="text/javascript" src="http://item.koudai.com/js/require.js" data-main="/fudongguang/guohang/Public/js/app"></script>
 
 <script type="text/javascript">
     (function(config){
