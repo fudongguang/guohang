@@ -2,8 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e541da-4833-4019-9219-a16ebe644855" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/choujiang.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/css/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/css/global/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/css/global/size.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/feiji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/feijiA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/icons_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/icons_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/index_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/info_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/info_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/info_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/info_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jiantou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jiantou_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/jichang_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/music.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/music_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/music_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/number.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/number1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/number1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/number_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/number_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/images/tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/data/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/global/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/global/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/global/hack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/global/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/global/storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/Fish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/JSON2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/Slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/ejs_production.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/weixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/wxshare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/zepto.dirction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/zepto.fx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/lib/zepto.pageSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/public/banjia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/public/configs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/public/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/js/public/koudai.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/setViewportDpi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/setViewportScal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/weixinMsg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/output/wx_sample.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/haihang.zip" afterPath="$PROJECT_DIR$/build/haihang.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/logs/commands.log" afterPath="$PROJECT_DIR$/build/logs/commands.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="guohang.iws" />
@@ -32,10 +103,28 @@
           <file leaf-file-name="WeixinController.class.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="222" column="0" selection-start="5117" selection-end="5117" vertical-scroll-proportion="5.568562" vertical-offset="0" max-vertical-offset="5055">
+                <state line="239" column="13" selection-start="5962" selection-end="5962" vertical-scroll-proportion="4.085284" vertical-offset="1142" max-vertical-offset="5070">
                   <folding>
-                    <marker date="1415731328000" expanded="true" signature="6892:7210" placeholder="..." />
+                    <marker date="1415736222000" expanded="true" signature="6946:7264" placeholder="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="log.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/log.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="62" column="0" selection-start="1635" selection-end="1654" vertical-scroll-proportion="-20.541666" vertical-offset="437" max-vertical-offset="1035">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="242" column="19" selection-start="5907" selection-end="5933" vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="4665">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -44,13 +133,49 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="weixinMsg.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="weixinMsg.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/weixinMsg.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="7" selection-start="78" selection-end="103" vertical-scroll-proportion="0.15050167" vertical-offset="0" max-vertical-offset="1395">
+                <state line="4" column="12" selection-start="33" selection-end="58" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1395">
                   <folding>
                     <marker date="1415639254000" expanded="true" signature="1110:1344" placeholder="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.39130434" vertical-offset="0" max-vertical-offset="575">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="convention-online.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention-online.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="56" column="43" selection-start="2600" selection-end="2600" vertical-scroll-proportion="-4.375" vertical-offset="615" max-vertical-offset="2505">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lineer.txt" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lineer.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -71,7 +196,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/a.php" />
-        <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/log.php" />
         <option value="$PROJECT_DIR$/b.php" />
         <option value="$PROJECT_DIR$/weixinMsg.php" />
@@ -83,6 +207,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/ApiController.class.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/lineer.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention-online.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php" />
       </list>
     </option>
@@ -138,6 +267,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guohang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guohang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guohang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guohang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -150,6 +311,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ThinkPHP/Conf" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Application/Home/Model" />
       <recent name="$PROJECT_DIR$/Application/Home/Controller" />
@@ -182,14 +344,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="732" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16953126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16953126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -225,7 +387,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="15" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2940">
           <folding>
-            <marker date="1415731328000" expanded="true" signature="6892:7210" placeholder="..." />
+            <marker date="1415736222000" expanded="true" signature="6946:7264" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -284,19 +446,9 @@
         <state line="6" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.07058824" vertical-offset="0" max-vertical-offset="1275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="3742" selection-end="3742" vertical-scroll-proportion="0.3764706" vertical-offset="1770" max-vertical-offset="4530" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.13189448" vertical-offset="0" max-vertical-offset="1251" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guanzhu.php">
@@ -349,42 +501,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="40" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.5155483" vertical-offset="405" max-vertical-offset="2505" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/ComModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="175" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1166" selection-end="1238" vertical-scroll-proportion="-20.36" vertical-offset="76" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="633" selection-end="633" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
           <folding />
         </state>
       </provider>
@@ -417,20 +536,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="373" selection-end="373" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="40" selection-start="2597" selection-end="2597" vertical-scroll-proportion="-25.0" vertical-offset="120" max-vertical-offset="2505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/output/ThinkPHP/Conf/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="15" selection-start="2464" selection-end="2464" vertical-scroll-proportion="-10.0" vertical-offset="450" max-vertical-offset="2505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lineer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="19" selection-start="5907" selection-end="5933" vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="4665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixinMsg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="78" selection-end="103" vertical-scroll-proportion="0.15050167" vertical-offset="0" max-vertical-offset="1395">
+        <state line="4" column="12" selection-start="33" selection-end="58" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1395">
           <folding>
             <marker date="1415639254000" expanded="true" signature="1110:1344" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1635" selection-end="1654" vertical-scroll-proportion="-20.541666" vertical-offset="437" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention-online.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="43" selection-start="2600" selection-end="2600" vertical-scroll-proportion="-4.375" vertical-offset="615" max-vertical-offset="2505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.37562606" vertical-offset="0" max-vertical-offset="599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.39130434" vertical-offset="0" max-vertical-offset="575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="0" selection-start="5117" selection-end="5117" vertical-scroll-proportion="5.568562" vertical-offset="0" max-vertical-offset="5055">
+        <state line="239" column="13" selection-start="5962" selection-end="5962" vertical-scroll-proportion="4.085284" vertical-offset="1142" max-vertical-offset="5070">
           <folding>
-            <marker date="1415731328000" expanded="true" signature="6892:7210" placeholder="..." />
+            <marker date="1415736222000" expanded="true" signature="6946:7264" placeholder="..." />
           </folding>
         </state>
       </provider>

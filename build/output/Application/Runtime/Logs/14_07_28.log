@@ -1,0 +1,564 @@
+[ 2014-07-28T09:12:37+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-07-28T09:12:40+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:12:40+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.196545s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2014-07-28T09:12:43+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.294876s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 4 )  [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.072156s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2014-07-28T09:17:11+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:17:12+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.046330s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-07-28T09:18:08+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.002433s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 5 )  [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002335s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-07-28T09:18:10+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.049323s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 4 )  [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003142s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2014-07-28T09:18:17+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:18:17+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.030112s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2014-07-28T09:18:19+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.056972s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 4 )  [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003384s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2014-07-28T09:18:21+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.049187s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 5 )  [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003169s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2014-07-28T09:18:23+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.049862s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 4 )  [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003339s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2014-07-28T09:18:25+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:18:25+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.040453s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2014-07-28T09:18:27+08:00 ] ::1 /ThinkPHP/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [8] Undefined index: name /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Controller/UserController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2014-07-28T09:18:33+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:18:33+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.037111s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2014-07-28T09:19:04+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.047979s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 4 )  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002914s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-07-28T09:19:09+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.054309s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 5 )  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002354s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2014-07-28T09:39:55+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2014-07-28T09:40:00+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:40:00+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.068479s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2014-07-28T09:40:00+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+
+[ 2014-07-28T09:40:00+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ApiModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ProjectModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002291s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+NOTIC: [8] Undefined index: author /Users/fudg/Desktop/www/ThinkPHP/Application/Runtime/Cache/Home/9d459e48cece1d7473e65af45d1fe54a.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2014-07-28T09:40:04+08:00 ] ::1 /ThinkPHP/index.php/Home/Api/index?projectId=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+NOTIC: [2048] Declaration of Home\Model\ListModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) /Users/fudg/Desktop/www/ThinkPHP/Application/Home/Model/ListModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `api_list` [ RunTime:0.056927s ]
+SQL: SELECT * FROM `api_list` WHERE ( `projectId` = 5 )  [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.003046s ]
+SQL: SELECT * FROM `api_project` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2014-07-28T09:43:34+08:00 ] ::1 /ThinkPHP/index.php/Home/Project/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/fudg/Desktop/www/ThinkPHP/ThinkPHP/Common/functions.php 第 1169 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+

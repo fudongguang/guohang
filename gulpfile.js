@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     ssh = require('gulp-ssh'),
     zip = require('gulp-zip'),
     config = require('./build/config.js').config,
+    rename = require("gulp-rename"),
     del = require('del');
 
 var dirOutput = 'build/output',//output目录
@@ -124,10 +125,18 @@ gulp.task('images', function (cb) {
         .pipe(gulp.dest('images')).on('end', cb).on('error', cb);
 });
 
+
 //复制项目到output
 gulp.task('copy',['replace'],function(){
       return gulp.src(['**/*','!{output,output/**}','**/*.sh'].concat(dirExculde))
             .pipe(gulp.dest(dirOutput));
+});
+
+
+gulp.task('config',function(){
+    return gulp.src("./ThinkPHP/Conf/convention-online.php")
+        .pipe(rename("convention.php"))
+        .pipe(gulp.dest(dirOutput+"/ThinkPHP/Conf/"));
 });
 
 

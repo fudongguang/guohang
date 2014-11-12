@@ -1,0 +1,1 @@
+initData.simulateData={randomGetAward:{proAbleNum:647,preNum:13,notice:"一段测试公告"}};

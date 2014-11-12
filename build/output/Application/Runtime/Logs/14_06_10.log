@@ -1,0 +1,502 @@
+[ 2014-06-10T09:15:35+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000898s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000099s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:15:36+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000926s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000127s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:16:10+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000878s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000145s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:17:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `api_prosject` [ RunTime:0.000901s ]
+ERR: 1146:Table 'koudai-api.api_prosject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_prosject`
+SQL: SELECT * FROM `api_prosject`  [ RunTime:0.000100s ]
+ERR: 1146:Table 'koudai-api.api_prosject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_prosject` 
+
+[ 2014-06-10T09:17:07+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `api_prosject` [ RunTime:0.001059s ]
+ERR: 1146:Table 'koudai-api.api_prosject' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_prosject`
+SQL: SELECT * FROM `api_prosject`  [ RunTime:0.000144s ]
+ERR: 1146:Table 'koudai-api.api_prosject' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_prosject` 
+
+[ 2014-06-10T09:17:14+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000857s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000100s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:02+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000824s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000103s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:03+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000827s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000116s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:04+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001305s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000100s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:04+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.221015s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000277s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:04+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001111s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000109s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000937s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000113s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000965s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000099s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000924s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000140s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001154s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000158s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001187s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000262s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000927s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000099s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001403s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000262s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001105s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000186s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000999s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000140s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001275s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000202s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:06+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001122s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000208s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:16+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000954s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000107s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T09:19:54+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.000927s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `api_project`
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000128s ]
+ERR: 1146:Table 'koudai-api.api_project' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `api_project` 
+
+[ 2014-06-10T11:48:00+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001774s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000216s ]
+
+[ 2014-06-10T11:48:05+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002164s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000245s ]
+
+[ 2014-06-10T11:48:18+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001846s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000301s ]
+
+[ 2014-06-10T11:54:53+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001621s ]
+SQL: SELECT * FROM `api_project`  [ RunTime:0.000228s ]
+
+[ 2014-06-10T11:55:21+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002613s ]
+
+[ 2014-06-10T11:55:40+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002142s ]
+
+[ 2014-06-10T11:55:43+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001375s ]
+
+[ 2014-06-10T11:55:44+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002279s ]
+
+[ 2014-06-10T11:55:45+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.004640s ]
+
+[ 2014-06-10T11:55:49+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002156s ]
+
+[ 2014-06-10T11:55:51+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002109s ]
+
+[ 2014-06-10T11:55:52+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002467s ]
+
+[ 2014-06-10T14:51:23+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001462s ]
+
+[ 2014-06-10T14:51:24+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002187s ]
+
+[ 2014-06-10T14:51:25+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002333s ]
+
+[ 2014-06-10T14:51:25+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.002166s ]
+
+[ 2014-06-10T16:43:09+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001349s ]
+
+[ 2014-06-10T16:43:11+08:00 ] ::1 /ThinkPHP/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `api_project` [ RunTime:0.001582s ]
+

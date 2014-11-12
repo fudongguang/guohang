@@ -9,4 +9,8 @@ aa 10/Nov/2014:16:0:24a 10/Nov/2014:16:0:32a 10/Nov/2014:16:0:14 Arraya 10/Nov/2
    [10/Nov/2014:16:0:16 ] " http://" 200 
    [10/Nov/2014:16:0:16 ] " http://" 200 
  - - [10/Nov/2014:16:0:25 +0100] "GET http://localhost/fudongguang/guohang/b.php?v=123" 200 0
-a
+a - - [11/Nov/2014:19:0:51 +0100] "GET http://localhost/fudongguang/guohang/index.php/Home/Weixin/weixinMsg" 200 0
+ - - [11/Nov/2014:19:0:06 +0100] "GET http://localhost/fudongguang/guohang/index.php/Home/Weixin/weixinMsg" 200 0
+ - - [11/Nov/2014:19:0:16 +0100] "GET http://localhost/fudongguang/guohang/index.php/Home/Weixin/testadd" 200 0
+ - - [11/Nov/2014:19:0:45 +0100] "GET http://localhost/fudongguang/guohang/index.php/Home/Weixin/testadd" 200 0
+sdfsdf

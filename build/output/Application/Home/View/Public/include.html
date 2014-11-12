@@ -1,0 +1,16 @@
+<script type="text/javascript" src="http://item.koudai.com/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/plugin/lhgdialog/lhgdialog.min.js?skin=default"></script>
+<script type="text/javascript" src="http://item.koudai.com/js/require.js" data-main="__PUBLIC__/js/app"></script>
+
+<script type="text/javascript">
+    (function(config){
+        config['title']='';
+        config['lock'] = true;
+        config['max']=false;
+    })($.dialog.setting);
+
+    $('body').delegate('.ui_dialog .J_close','click',function(){
+        $(this).parents('.ui_dialog').find('.ui_close').trigger('click');
+        return false;
+    })
+</script>

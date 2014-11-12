@@ -1,0 +1,1 @@
+define(["../global/global"],function(n){return{getPromotionLink:function(o,i){n.ajax({url:n.apiHost+"getCpsLink.do",data:o,success:function(n){i&&com.isFunction(i)&&i(n)}})},getKeywordLink:function(o,i){n.ajax({url:n.apiHost+"getKeywordLink.do",data:o,success:function(n){i&&com.isFunction(i)&&i(n)}})}}});

@@ -4,14 +4,14 @@ use Think\Controller;
 define("TOKEN", "hhcj");
 class WeixinController extends Controller {
 
-    private $jiangping = [
-        ['钥匙扣', 1000],
-        ['马克杯', 500],
-        ['代金券', 300],
-        ['机翼U盘', 100],
-        ['飞机模型', 10],
-        ['往返机票', 2]
-    ];
+    private $jiangping = array(
+        array('钥匙扣', 1000),
+        array('马克杯', 500),
+        array('代金券', 300),
+        array('机翼U盘', 100),
+        array('飞机模型', 10),
+        array('往返机票', 2)
+    );
 
     private $scale = 300;
 
@@ -27,7 +27,6 @@ class WeixinController extends Controller {
         }
 
         $id = $table->add();
-
         return $id;
     }
 
@@ -100,8 +99,8 @@ class WeixinController extends Controller {
         $table->add($data);
 
 
-        if($result==[9,5,3,3,9]){
-            $result = [4,2,7,6,6];
+        if($result==array(9,5,3,3,9)){
+            $result = array(4,2,7,6,6);
         }
         $this->responseResult($result);
     }
@@ -142,8 +141,8 @@ class WeixinController extends Controller {
     public function noJiangPing(){
         $arr = array(rand(0,8),rand(0,8),rand(0,8),rand(0,8),rand(0,8));
 
-        if($arr==[9,5,3,3,9]){
-            $arr = [4,2,7,6,6];
+        if($arr==array(9,5,3,3,9)){
+            $arr = array(4,2,7,6,6);
         }
 
         return $arr;
@@ -203,7 +202,7 @@ class WeixinController extends Controller {
 
     //回应请求后打印结果
     public function responseResult($data='',$errorMsg=0){
-        $result = [];
+        $result = array();
         $status = 0;
 
         if($errorMsg){
@@ -219,9 +218,6 @@ class WeixinController extends Controller {
 
 
     public function weixinMsg(){
-        $this->valid();
-        exit;
-
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         if (!empty($postStr)) {
             libxml_disable_entity_loader(true);
@@ -232,6 +228,9 @@ class WeixinController extends Controller {
             $msgType =$postObj->MsgType;
             $event = $postStr->Event;
 
+            write_to_log($fromUsername.'|'.$toUsername.'|'.$content.'|'.$msgType.'|'.$event);
+
+
             if($msgType === 'text'){
                 if(stristr($content,'dz')){
                     if($this->address($content,$fromUsername)){
@@ -241,11 +240,9 @@ class WeixinController extends Controller {
             }
 
             if($msgType === 'event'){
-                if($event === 'subscribe'){
                     if($this->add($fromUsername)){
                         $this->responseMsg('关注设置成功');
                     }
-                }
             }
 
         } else {
@@ -323,10 +320,14 @@ class WeixinController extends Controller {
 
 
     public function testchoujiang(){
-        $this->choujiang('dsf');
+        $this->choujiang('aa');
     }
 
     public function testaddress(){
-        $this->address('sdfsdfsdf','dsf');
+        $this->address('sdfsdfsdf','aa');
+    }
+
+    public function testAdd(){
+        $this->add('aa'.time());
     }
 }

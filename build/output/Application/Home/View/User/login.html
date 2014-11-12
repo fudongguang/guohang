@@ -1,0 +1,39 @@
+<include file="Public:header" xmlns="http://www.w3.org/1999/html"/>
+
+<div class="wrapper">
+    <div style="width: 300px;margin: auto;" class="pt30">
+        <form method="POST" class="login" id="form" action="../User/login">
+            <table>
+                <tr>
+                    <td>用户名：</td>
+                    <td>
+                        <input style="width: 220px;" class="input-t" name="name" type="text" maxlength="60"
+                               data-validator='{"required":1,"messages":{"required":"请输入用户名"}}'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td>
+                        <input style="width: 220px;" class="input-t" name="password" type="password" maxlength="30"
+                               data-validator='{"required":1,"messages":{"required":"请输入密码"}}'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" id="submitButton" class="button" value=" 登 录 "/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<include file="Public:include" />
+
+<script type="text/javascript">
+    requirejs([ 'user' ], function() {
+    });
+</script>
+
+<include file="Public:footer" />

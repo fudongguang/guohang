@@ -1,0 +1,38 @@
+<include file="Public:header" xmlns="http://www.w3.org/1999/html"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/index.css?v=140426161232"/>
+
+<div class="wrapper">
+    <div style="width: 700px;margin: auto;" class="pt50">
+<form method="POST" id="form" action="../Project/save">
+    <table>
+        <tr>
+            <td>项目名称：</td>
+            <td>
+                <input class="input-t" name="name" type="text" style="width: 500px;" maxlength="120" data-validator='{"required":1,"messages":{"required":"请输入项目名称"}}'/>
+            </td>
+        </tr>
+        <tr>
+            <td>项目描述：</td>
+            <td>
+                <textarea class="input-t middle" name="desc" style="width: 500px; height: 200px;" type="text" maxlength="250" data-validator='{"required":1,"messages":{"required":"请输入项目描述"}}'></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" id="submitButton" class="button" value="提 交"/>
+            </td>
+        </tr>
+    </table>
+</form>
+    </div>
+</div>
+
+<include file="Public:include" />
+
+<script type="text/javascript">
+    requirejs([ 'project' ], function() {
+    });
+</script>
+
+<include file="Public:footer" />

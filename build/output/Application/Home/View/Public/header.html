@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>口袋杭州api系统</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Public/public.css?v=140426161232"/>
+</head>
+<body>
+<div class="navbar pt12 pb12" style="background:#2c2c2c;color: #fff">
+    <div class="navbar-inner" style="width: 1000px;margin: auto;">
+        <a class="brand" href="{:U('Home/Index/index')}" style="color: #fff;font-size: 20px;">口袋web文档管理</a>
+        <a class="active ml20" href="{:U('Home/Index/index')}">项目列表</a>
+
+        <if condition="$Think.session.userInfo.role eq 1">
+            <a class="active ml20" href="{:U('Home/User/showList')}">用户列表</a>
+        </if>
+
+        <empty name="Think.session.userInfo.name">
+            <a href="{:U('Home/User/index')}" class="fr mt6">登 录</a>
+            <else/>
+
+            <a href="{:U('Home/User/logout')}" class="fr mt6 ml6">退出</a>
+            <span class="fr mt6">欢迎你：{$Think.session.userInfo.name}</span>
+        </empty>
+    </div>
+</div>
+<script type="text/javascript">
+    var initData=[];
+</script>

@@ -1,0 +1,35 @@
+<include file="Public:header" xmlns="http://www.w3.org/1999/html"/>
+
+<div class="wrapper">
+    <h1 class="title pt20">项目列表
+        <notempty  name="Think.session.userInfo.name">
+            <a href="{:U('Home/Project/add')}" style="font-size: 15px;">增加</a>
+        </notempty>
+    </h1>
+    <hr>
+    <div class="row mt30">
+        <div class="span12">
+            <ul style="line-height: 23px;">
+                <foreach name="data" item="item">
+                    <li><a href="../Api/index?projectId={$item.id}" style="color: #6B6868;font-size: 15px;">{$item.name}</a>
+                        <notempty  name="Think.session.userInfo.name">
+
+                        <a href="del?id={$item.id}" style="font-size: 13px;" onclick="return confirm('确定要删除吗？');">删除</a>
+                        </notempty>
+
+                        <span class="h6 fr" style="color: #8B8787;">{$item.author} {$item.createTime}</span>
+                    </li>
+                </foreach>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<include file="Public:include"/>
+
+<script type="text/javascript">
+//    requirejs([ 'index' ], function () {
+//    });
+</script>
+
+<include file="Public:footer"/>

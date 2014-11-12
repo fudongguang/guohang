@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"/ThinkPHP/Public/js",paths:{Fish:"./lib/Fish",ejs:"./lib/ejs_production",json2:"./lib/ejs_production",common:"./global/common"},shim:{common:{deps:["Fish","ejs","json2"]}},urlArgs:"v=123"}),requirejs(["./lib/Fish","./lib/ejs_production","./lib/json2","./global/global","./public/initBind"],function(){});

@@ -1,0 +1,1 @@
+define(["./global/global","./data/data","./lib/Validator"],function(t,i,n){{var o=FishMVC.View.extend({init:function(){this.validator=new n({context:"#form"})},elements:{"#submitButton":"submitButton","#form":"form"},events:{"click submitButton":"doSubmit"},doSubmit:function(){return this.validator.valid()&&this.form.submit(),!1}});new o({el:$(".wrapper")})}});

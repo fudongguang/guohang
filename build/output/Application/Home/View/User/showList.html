@@ -1,0 +1,64 @@
+<include file="Public:header" xmlns="http://www.w3.org/1999/html"/>
+
+<div class="wrapper">
+    <h1 class="title pt20">用户列表
+        <notempty  name="Think.session.userInfo.name">
+            <a href="{:U('Home/Project/add')}" style="font-size: 15px;">增加</a>
+        </notempty>
+    </h1>
+
+    <hr>
+
+    <table class="table-list-wrapper mt20">
+        <thead>
+        <tr>
+            <td style="width: 20%">用户名</td>
+            <td style="width: 15%">状态</td>
+            <td style="width: 15%">权限</td>
+            <td style="width: 20%">创建时间</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="rows" item="item">
+            <tr>
+                <td>{$item.name}</td>
+                <td>{$item.statusStr}</td>
+                <td>{$item.roleStr}</td>
+                <td>{$item.createTime}</td>
+                <td>
+                    <if condition="$item.role eq 0">
+                        <if condition="$item.status eq 1">
+                            <a href="lock?status=0&id={$item.id}" class="blue">
+                                解锁
+                            </a>
+                            <else/>
+                            <a href="lock?status=1&id={$item.id}" class="blue">
+                                锁定
+                            </a>
+                        </if>
+                        <a href="del?id={$item.id}" onclick="return confirm('确定要删除吗？')" class="blue">
+                            删除
+                        </a>
+                        <a href="resetPWD?id={$item.id}" onclick="return confirm('确定要重置密码吗？')" class="blue">
+                            重置密码
+                        </a>
+                        <else/>
+                        锁定 删除
+                    </if>
+                </td>
+            </tr>
+        </foreach>
+        </tbody>
+
+    </table>
+</div>
+
+<include file="Public:include"/>
+
+<script type="text/javascript">
+    requirejs([ 'user' ], function () {
+    });
+</script>
+
+<include file="Public:footer"/>

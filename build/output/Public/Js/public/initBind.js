@@ -1,0 +1,1 @@
+define(["../global/global"],function(){$(".J_del").click(function(){return confirm("确定要删除吗？")})});

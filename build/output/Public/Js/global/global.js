@@ -1,0 +1,1 @@
+define(["./common","./configs","./storage","./hack"],function(n,e,o,c){var r={};return $.extend(r,n,e,o,c),r});

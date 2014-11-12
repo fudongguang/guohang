@@ -1,0 +1,14 @@
+账号：lineer2013@126.com
+密码：lineer2013
+ssh密码 lineer2013S
+mysql root password:!abc123456
+default web root:/home/www/default
+数据库名称 dedecmsv57utf8sp1
+
+管理员账号密码 admin lineer2013
+
+
+
+gulp;gulp config;gulp scp;
+注意修改lamp.sh php配置  --disable-fileinfo  内存不够
+./configure --prefix=/usr/local/php --with-apxs2=/usr/local/apache/bin/apxs  --with-config-file-path=/etc --with-config-file-scan-dir=/etc/php.d --with-openssl --with-zlib  --with-curl --enable-ftp --with-gd --with-jpeg-dir --with-png-dir --with-freetype-dir --enable-gd-native-ttf --enable-mbstring --with-mcrypt --enable-zip --disable-fileinfo --with-iconv=/usr/local/libiconv --with-mysql=/usr/local/mysql --without-pear
